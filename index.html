@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchachtPro – Digital protokollieren</title>
+    <style>
+        :root {
+            --text: #1a1a1a;
+            --muted: #555;
+            --accent: #c8541e;
+            --bg: #ffffff;
+            --border: #e5e5e5;
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background: var(--bg);
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 3rem 1.25rem 4rem;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        h1 {
+            font-size: 2.6rem;
+            margin: 0 0 0.5rem;
+            letter-spacing: -0.02em;
+        }
+        h1 .pro {
+            color: var(--accent);
+        }
+        .tagline {
+            color: var(--muted);
+            font-size: 1.05rem;
+            margin: 0;
+        }
+        h2 {
+            font-size: 1.15rem;
+            margin-top: 2.5rem;
+            margin-bottom: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--muted);
+        }
+        p {
+            margin: 0.75rem 0;
+        }
+        .description {
+            background: #f7f7f7;
+            border-left: 3px solid var(--accent);
+            padding: 1rem 1.25rem;
+            margin: 2rem 0;
+        }
+        .links {
+            list-style: none;
+            padding: 0;
+        }
+        .links li {
+            padding: 0.6rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+        .links li:last-child {
+            border-bottom: none;
+        }
+        .links a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        .play-store {
+            display: inline-block;
+            background: var(--text);
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            margin-top: 0.5rem;
+        }
+        .play-store:hover {
+            background: #000;
+        }
+        footer {
+            margin-top: 4rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border);
+            font-size: 0.85rem;
+            color: var(--muted);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Schacht<span class="pro">Pro</span></h1>
+        <p class="tagline">Digital protokollieren</p>
+    </header>
+
+    <div class="description">
+        <p>SchachtPro ist eine native Android-Anwendung zur digitalen Erfassung und Dokumentation von Schachtinspektionen. Die App arbeitet vollständig offline – sämtliche Inspektionsdaten verbleiben auf Ihrem Gerät.</p>
+    </div>
+
+    <h2>App herunterladen</h2>
+    <p>
+        <a class="play-store" href="https://play.google.com/store/apps/details?id=[DEINE-PACKAGE-ID]" target="_blank" rel="noopener">
+            ▸ Google Play Store
+        </a>
+    </p>
+
+    <h2>Rechtliches</h2>
+    <ul class="links">
+        <li><a href="datenschutz.html">Datenschutzerklärung</a></li>
+        <li><a href="nutzungsbedingungen.html">Nutzungsbedingungen</a></li>
+    </ul>
+
+    <h2>Kontakt</h2>
+    <p><a href="mailto:schachtpro@mail.ch">schachtpro@mail.ch</a></p>
+
+    <footer>
+        © 2026 SchachtPro
+    </footer>
+</body>
+</html>
